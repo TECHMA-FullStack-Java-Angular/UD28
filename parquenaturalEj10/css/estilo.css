@@ -5,12 +5,13 @@ body {
   border-radius: 20px;
 }
 .box {
-  border: 1px solid black;
+  border: 1px solid rgb(86, 86, 86);
   padding: 2%;
-  background: linear-gradient(to top, rgb(238, 234, 234), white)
+  background: linear-gradient(to top, rgb(238, 234, 234), white);
+  box-shadow: 1px 1px 7px 0px rgba(3,0,3,0.54);
 }
 .titulo {
-  border-bottom: 1px solid rgb(82, 204, 82);
+  border-bottom: 1px solid forestgreen;
 }
 
 h1 {
@@ -18,7 +19,7 @@ h1 {
   letter-spacing: 3px;
 }
 h2 {
-  color: rgb(82, 204, 82);
+  color: forestgreen;
   margin-bottom: 0px;
 }
 h3 {
@@ -40,7 +41,7 @@ ul {
 a {
   text-decoration: none; /* eliminar el subrayado */
   background-color: #cbe783;
-  border: 1px solid rgb(113, 111, 111); /* agregar un borde de 1 píxel sólido negro */
+ 
   width: 150px; /* establecer el ancho del enlace en 150 píxeles */
   height: 50px;
   display: inline-block; /* establecer el elemento como bloque en línea */
@@ -50,11 +51,12 @@ a {
   line-height: 50px;
   color: darkslategrey;
   background: linear-gradient(to bottom, #cbe783, white);
+  box-shadow: inset 1px 1px 7px 0px #cbe783;
 }
 
 a:hover {
   border: #d3d3d3 1px solid;
-  
+  box-shadow: inset 1px 1px 7px 0px #e5cdb2;
   background: linear-gradient(to bottom, #e5cdb2, white);
 }
 
@@ -62,4 +64,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+img{
+  border-radius: 15px;
 }
