@@ -1,4 +1,10 @@
 body{
-    background-color:azure;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    background-color:#f0f8ff;
+    font: normal 125%/1.6 "Open Sans","Helvetica Neue Light","Helvetica Neue","Helvetica","Arial",sans-serif;;
+
+}
+
+h1,h2{
+    font-family:"Courgette",cursive;
+    color: #2c3e50;
 }
