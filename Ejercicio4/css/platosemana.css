@@ -1,0 +1,20 @@
+ul{
+    list-style: none;
+    color: black;
+   
+}
+body{
+    background-color:blanchedalmond;
+    color: darkblue;
+    margin: 0;
+   
+}
+h1{
+    font-style: italic;
+}
+
+h2{
+    background-color: darkgoldenrod;
+    margin: 0;
+    
+}
