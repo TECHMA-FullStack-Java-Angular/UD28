@@ -1,0 +1,54 @@
+body {
+  font-family: "Lucida Sans Unicode";
+  max-width: 900px;
+  margin: 0 auto;
+}
+.box {
+  border: 1px solid black;
+  padding: 2%;
+}
+.titulo {
+  border-bottom: 1px solid rgb(82, 204, 82);
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 3px;
+}
+h2 {
+  color: rgb(82, 204, 82);
+  margin-bottom: 0px;
+}
+h3 {
+  color: chocolate;
+}
+.container {
+  display: flex;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+.list {
+  padding-right: 5%;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none; /* eliminar el subrayado */
+  background-color: #cbe783;
+  border: 1px solid rgb(113, 111, 111); /* agregar un borde de 1 píxel sólido negro */
+  width: 150px; /* establecer el ancho del enlace en 150 píxeles */
+  height: 50px;
+  display: inline-block; /* establecer el elemento como bloque en línea */
+  text-align: center; /* centrar el texto del enlace */
+  margin-bottom: 2px;
+  text-align: center;
+  line-height: 50px;
+  color: darkslategrey;
+}
+
+a:hover {
+  border: #d3d3d3 1px solid;
+  background-color: #e5cdb2;
+}
